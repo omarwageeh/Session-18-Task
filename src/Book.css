@@ -1,0 +1,15 @@
+.image{
+    position: relative;
+    width: fit-content;
+    margin-bottom: 6px;
+}
+
+.dropdown{
+    position: absolute;
+    bottom: -6px;;
+    right: -9px;
+    color: white;
+    font-size: 35px;
+    width: 70px;
+    height: 70px;
+}

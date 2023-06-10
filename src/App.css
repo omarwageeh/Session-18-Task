@@ -1,0 +1,29 @@
+html, body{
+    height: 100vh
+  }
+
+body{
+}
+.header{
+    background-color: green;
+}
+.min-header::after{
+    display: block;
+    content: '';
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+.search-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    background-color: green;
+    height: 66px;
+    width: 66px;
+    line-height: 60px;
+    font-size: 21px;
+    text-align: center;
+    border: 0px;
+    color: white;
+}
